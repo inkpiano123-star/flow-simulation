@@ -10,3 +10,7 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(raylib)
 add_executable(FlowSim main.cpp)
 target_link_libraries(FlowSim PRIVATE raylib)
+add_custom_command(TARGET FlowSim POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_if_different
+    "${CMAKE_CURRENT_SOURCE_DIR}/pipe.obj"
+    $<TARGET_FILE_DIR:FlowSim>/pipe.obj)
