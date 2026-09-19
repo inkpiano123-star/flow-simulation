@@ -1,0 +1,35 @@
+# Build directories
+build/
+bin/
+Release/
+Debug/
+x64/
+x86/
+_deps/
+CMakeFiles/
+*.dir/
+
+# CMake generated files
+CMakeCache.txt
+cmake_install.cmake
+CPackConfig.cmake
+CPackSourceConfig.cmake
+install_manifest.txt
+
+# Visual Studio files
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.slnx
+*.suo
+*.user
+
+# Temporary and script files
+*.log
+flow_app.py
+*.STL
+*.SLDPRT
+*.SLDASM
+fxp/
