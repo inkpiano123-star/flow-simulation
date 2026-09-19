@@ -15,7 +15,7 @@ This application simulates progressive fluid front propagation, velocity gradien
 
 | SolidWorks CFD Reference | Real-time C++ 3D CFD Simulation |
 | :---: | :---: |
-| ![SolidWorks Reference](github/media_1789815256126.png) | ![C++ Simulation Preview](github/media_1789815763572.png) |
+| ![SolidWorks Reference](assets/solidworks_ref.png) | ![C++ Simulation Preview](assets/cpp_simulation.png) |
 
 ---
 
